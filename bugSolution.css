@@ -1,0 +1,15 @@
+/* bugSolution.css */
+
+/* Correct path to the image */
+.correct-path {
+  background-image: url('images/image.jpg'); /* Assuming image is in 'images' folder */
+}
+
+/* Cache busting technique */
+.cache-bust {
+  background-image: url('images/image.jpg?v=2'); /* Version number for cache busting */
+}
+
+/* Ensure correct MIME type on the server */
+/* This is a server-side fix, not a CSS solution */
+/* The server needs to correctly report the content type of the image. */
